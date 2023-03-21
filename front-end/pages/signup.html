@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../style/signup.css">
+  <title>Sign-up</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="website_name">
+      <a id="link" href="/front-end/index.html">DreamDate<span>&hearts;</span>com</a>
+    </div>
+  </div>
+  <div class="cred">
+    <img id="logo" src="../images/logo.svg">
+    <p>Full Name</p>
+    <input id="user_name" type="text" placeholder="Enter Your Full Name">
+    <p>Email</p>
+    <input id="user_email" type="text" placeholder="Enter Your Email">
+    <p>Password</p>
+    <input id="user_password" type="text" placeholder="Enter Your Password">
+    <p>Gender</p>
+    <input id="gender" type="text">
+    <p>Age</p>
+    <input id="user_age" type="number">
+    <label for="City">Choose the City</label>
+    <select id="city" name="city">
+      <option id="bei" value="beirut">Beirut</option>
+      <option id="byb" value="byblos">Byblos</option>
+      <option id="tyr" value="tyre">Tyre</option>
+      <option id="trip" value="tripoli">Tripoli</option>
+    </select>
+    <p>Set a profile picture</p>
+    <input id="user_pic" type="file">
+    <button id="validate_info" onclick="link_pages.loadFor('signup')">Register</button>
+    <p id="resp">-</p>
+  </div>
+  <script src="../javascript/axios.min.js"></script>
+  <script src="../javascript/link.js"></script>
+</body>
+
+</html>

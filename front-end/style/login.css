@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  background-color: #F2CCC9;
+  color: #590202;
+}
+
+/* header */
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #590202;
+}
+
+
+/* right side of navbar*/
+.website_name {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1.2rem;
+}
+
+#link {
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+span {
+  color: #BF0413;
+}
+
+/* left side navbar*/
+.logbuttons {
+  display: flex;
+  gap: 1.2rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+
+button {
+  font-family: 'Roboto';
+  background-color: #BF0413;
+  color: #F2CCC9;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  font-family: 'Roboto';
+  background-color: #BF0413;
+  color: #F2CCC9;
+  border-radius: 0.8rem;
+  width: 8rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+
+/* login info */
+
+.cred{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
+#logo{
+  height: 10rem;
+}
+
+input{
+  height: 2rem;
+  width: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+input:focus{
+  outline-color: #590202;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#new_account{
+  font-size: 0.8rem;
+  color: #590202;
+}
+
+#link{
+  color: #590202;
+}
+
+a#link,#signup_link{
+  text-decoration: none;
+}
+
+#signup_link{
+ color: #F2CCC9;
+}
